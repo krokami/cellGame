@@ -45,11 +45,11 @@ class CellList:
         # self.cell_list[2][3] = 1
         # self.cell_list[3][2] = 1
 
-        for i in range(12):
-            for j in range(12):
-                print(self.cell_list[i][j], end=' ')
-            print()
-        print()
+        # for i in range(12):
+        #     for j in range(12):
+        #         print(self.cell_list[i][j], end=' ')
+        #     print()
+        # print()
 
     def get_cell_list(self):
         """获取celllist.
