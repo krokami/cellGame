@@ -29,9 +29,9 @@ class CellList:
 
         @return: None
         """
-        # for i in range(1, self.num + 1):
-        #     for j in range(1, self.num + 1):
-        #         self.cell_list[i][j] = int(random.random() > 0.5)
+        for i in range(1, self.num + 1):
+            for j in range(1, self.num + 1):
+                self.cell_list[i][j] = int(random.random() > 0.5)
 
         # 稳定方格
         # self.cell_list[0][0] = 1
@@ -39,11 +39,11 @@ class CellList:
         # self.cell_list[1][0] = 1
         # self.cell_list[1][1] = 1
         # 滑翔机
-        self.cell_list[1][1] = 1
-        self.cell_list[1][3] = 1
-        self.cell_list[2][2] = 1
-        self.cell_list[2][3] = 1
-        self.cell_list[3][2] = 1
+        # self.cell_list[1][1] = 1
+        # self.cell_list[1][3] = 1
+        # self.cell_list[2][2] = 1
+        # self.cell_list[2][3] = 1
+        # self.cell_list[3][2] = 1
 
         for i in range(12):
             for j in range(12):
